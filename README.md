@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-# grafana-skynet-plugin
-Grafana Skynet Plugin
-=======
 # Grafana Data Source Plugin Template
 
 [![Build](https://github.com/grafana/grafana-starter-datasource/workflows/CI/badge.svg)](https://github.com/grafana/grafana-starter-datasource/actions?query=workflow%3A%22CI%22)
 
-This template is a starting point for building Grafana Data Source Plugins
+Grafana Skynet Data Source Plugin
 
 ## What is Grafana Data Source Plugin?
 
@@ -44,4 +40,3 @@ Grafana supports a wide range of data sources, including Prometheus, MySQL, and 
 - [Grafana documentation](https://grafana.com/docs/)
 - [Grafana Tutorials](https://grafana.com/tutorials/) - Grafana Tutorials are step-by-step guides that help you make the most of Grafana
 - [Grafana UI Library](https://developers.grafana.com/ui) - UI components to help you build interfaces using Grafana Design System
->>>>>>> 94e4441... initial commit
