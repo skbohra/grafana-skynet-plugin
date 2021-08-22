@@ -15,6 +15,7 @@ Plugin Configuration requires you to enter following values -
    - Portal URL for the Siasky instance (i.e. https://siasky.net)
    - Seed - you seed key to generate public, private key to fetch data
    - dataKey - dataKey for which you want to fetch data for from SkyDB
+   - For Storing Data we are currenly using https://note-to-self.hns.siasky.net/
 
 This is a very first version and supports only fetching single value and display as a Stat in the dashboard. 
 
