@@ -8,6 +8,21 @@ Grafana Skynet Data Source Plugin
 
 Grafana supports a wide range of data sources, including Prometheus, MySQL, and even Datadog. There’s a good chance you can already visualize metrics from the systems you have set up. In some cases, though, you already have an in-house metrics solution that you’d like to add to your Grafana dashboards. Grafana Data Source Plugins enables integrating such solutions with Grafana.
 
+## SkyDB Integration
+
+This data source plugin integrates SkyDB with Grafana so that data stored in SkyDB (Key-Value pair) can be displayed in the Grafana Dashboard. 
+Plugin Configuration requires you to enter following values - 
+   - Portal URL for the Siasky instance (i.e. https://siasky.net)
+   - Seed - you seed key to generate public, private key to fetch data
+   - dataKey - dataKey for which you want to fetch data for from SkyDB
+
+This is a very first version and supports only fetching single value and display as a Stat in the dashboard. 
+
+## Future Plans
+
+Next logical step would be to make a SkyDB based Time Series Database and Frontend, Deployed ton Akash, to store Metrics data, which will be useful to have a fully fledged decentralized Grafana solution.
+
+
 ## Getting started
 
 1. Install dependencies
