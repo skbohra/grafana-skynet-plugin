@@ -1,0 +1,29 @@
+{
+  "name": "grafana-skynet-datasource",
+  "version": "1.0.0",
+  "description": "Grafana Skynet Data Source Plugin",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch"
+  },
+  "author": "Shree Kant Bohra",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "latest",
+    "@grafana/toolkit": "latest",
+    "@grafana/ui": "latest",
+    "@types/lodash": "latest",
+    "@testing-library/jest-dom": "5.4.0",
+    "@testing-library/react": "^10.0.2"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "skynet-js": "^4.0.10-beta"
+  }
+}
