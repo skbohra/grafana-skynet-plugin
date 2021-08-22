@@ -1,4 +1,4 @@
-# Grafana Data Source Plugin Template
+# Grafana Skynet Data Source Plugin
 
 [![Build](https://github.com/grafana/grafana-starter-datasource/workflows/CI/badge.svg)](https://github.com/grafana/grafana-starter-datasource/actions?query=workflow%3A%22CI%22)
 
